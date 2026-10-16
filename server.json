@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.jimbob1414/benchfleet",
+  "title": "BenchFleet",
+  "description": "Let AI agents use your real Android phones safely, with permissions, approvals and an audit log.",
+  "websiteUrl": "https://benchfleet.com/android-mcp-server",
+  "repository": {
+    "url": "https://github.com/benchfleet/benchfleet-mcp",
+    "source": "github"
+  },
+  "version": "1.0.4",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "benchfleet-mcp",
+      "version": "1.0.4",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "BENCHFLEET_TOKEN",
+          "description": "The token from BenchFleet: Settings → AI clients → Connect an AI client",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

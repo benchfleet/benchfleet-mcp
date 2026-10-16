@@ -1,0 +1,42 @@
+{
+  "name": "benchfleet-mcp",
+  "version": "1.0.4",
+  "description": "MCP server for BenchFleet: let Claude Code, Codex, Cursor and other AI clients use your real Android phones safely, with permissions, approvals and an audit log.",
+  "mcpName": "io.github.jimbob1414/benchfleet",
+  "type": "module",
+  "bin": {
+    "benchfleet-mcp": "bin/benchfleet-mcp.mjs"
+  },
+  "main": "benchfleet-mcp.mjs",
+  "files": [
+    "benchfleet-mcp.mjs",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "android",
+    "adb",
+    "device-farm",
+    "mobile-testing",
+    "ai-agents",
+    "claude",
+    "benchfleet"
+  ],
+  "homepage": "https://benchfleet.com/android-mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benchfleet/benchfleet-mcp.git"
+  },
+  "bugs": {
+    "url": "https://benchfleet.com/contact",
+    "email": "support@benchfleet.com"
+  },
+  "author": "WOODCOMMERCE LTD <support@benchfleet.com>",
+  "license": "MIT"
+}
