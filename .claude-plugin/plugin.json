@@ -1,0 +1,16 @@
+{
+  "name": "benchfleet",
+  "version": "1.0.4",
+  "description": "A self-hosted hub for your Android phones. Let Claude Code, Codex or any MCP client use them with approvals and an audit log, or take control yourself.",
+  "author": {
+    "name": "BenchFleet",
+    "email": "support@benchfleet.com"
+  },
+  "homepage": "https://benchfleet.com",
+  "repository": "https://github.com/benchfleet/benchfleet-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "developer tools"
+  ]
+}

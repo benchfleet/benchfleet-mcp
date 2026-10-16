@@ -1,0 +1,17 @@
+{
+  "name": "benchfleet-plugins",
+  "owner": {
+    "name": "BenchFleet",
+    "email": "support@benchfleet.com"
+  },
+  "metadata": {
+    "description": "BenchFleet's Claude Code plugin: let Claude Code use your real Android phones safely through the BenchFleet app."
+  },
+  "plugins": [
+    {
+      "name": "benchfleet",
+      "source": "./",
+      "description": "A self-hosted hub for your Android phones. Let Claude Code, Codex or any MCP client use them with approvals and an audit log, or take control yourself."
+    }
+  ]
+}

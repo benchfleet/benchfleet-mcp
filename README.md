@@ -69,3 +69,18 @@ no shell, file transfer or install tool. A phone a person is controlling, a paus
 
 Plans: AI clients need BenchFleet Pro or Team (https://benchfleet.com/pricing); the personal edition has no limits.
 Support: support@benchfleet.com.
+
+## Use it in Claude Code as a plugin
+
+```
+/plugin marketplace add benchfleet/benchfleet-mcp
+/plugin install benchfleet@benchfleet-plugins
+```
+
+Set `BENCHFLEET_TOKEN` in your environment first (the token from BenchFleet: **Settings → AI clients**).
+
+## Use it in Gemini CLI
+
+```bash
+gemini extensions install https://github.com/benchfleet/benchfleet-mcp
+```
