@@ -1,0 +1,8 @@
+{
+  "name": "benchfleet",
+  "description": "A self-hosted hub for your Android phones. Let Claude Code, Codex or any MCP client use them with approvals and an audit log, or take control yourself.",
+  "version": "1.0.4",
+  "author": {
+    "name": "BenchFleet"
+  }
+}
